@@ -8,5 +8,5 @@ server:
 
 logging:
   level:
-    org.springframework.mongodb: DEBUG
+    org.springframework.data.mongodb: DEBUG
     com.adarsh.learning: DEBUG

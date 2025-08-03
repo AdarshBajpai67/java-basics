@@ -1,6 +1,48 @@
 {
-  "java.project.sourcePaths": [
-    "src/main/java"
-  ],
-  "java.compile.nullAnalysis.mode": "automatic"
+  "workbench.colorTheme": "Monokai Pro",
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "workbench.navigationControl.enabled": true,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+  },
+  "prettier.printWidth": 120,    
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "workbench.activityBar.orientation": "vertical",
+  "redhat.telemetry.enabled": true,
+  "git.confirmSync": false,
+  "[java]": {
+      "editor.defaultFormatter": "redhat.java"
+  },
+  "git.allowForcePush": true,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.replaceTagsWhenPull": true,
+  "git.confirmForcePush": false,
+  "cursor-retrieval.canAttemptGithubLogin": false,
+  "atlascode.bitbucket.explorer.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.import.gradle.enabled": true,
+  "java.import.maven.enabled": true,
+  "githubPullRequests.pullBranch": "never",
+  "application.shellEnvironmentResolutionTimeout": 20,
+  "cursor.general.disableHttp2": true,
+  "githubPullRequests.createOnPublishBranch": "never"
 }
